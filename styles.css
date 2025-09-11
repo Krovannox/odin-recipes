@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     font: inherit;
+    font-family: "Times New Roman", Arial, Verdana;
 }
 
 /* SEE HOW IT WORKS
@@ -22,3 +23,41 @@ img, picture, svg, video {
     max-width: 100%;
 }
 */
+
+body {
+    background-color: lightcyan;
+    border: 1px solid green;
+    margin: 50px 25%;
+    line-height: 1.5;
+}
+
+.main-title {
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    /* text-shadow: h-shadow v-shadow blur-radius color; */
+    text-shadow: 2px 2px 1px slategray;
+    color: orange;
+}
+
+.recipe-menu-main {
+    text-align: center;
+}
+
+.recipe-menu-title {
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+.recipe-menu-list li {
+    margin: 5px auto;
+    list-style-type: none;
+}
+
+.recipe-link {
+    border: 1px solid green;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
